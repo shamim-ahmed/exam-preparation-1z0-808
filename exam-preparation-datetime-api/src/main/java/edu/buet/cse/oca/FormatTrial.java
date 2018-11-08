@@ -9,5 +9,6 @@ public class FormatTrial {
 
     System.out.println(dt.toString());
     System.out.println(dt.format(DateTimeFormatter.ISO_DATE_TIME));
+    System.out.println(DateTimeFormatter.ISO_DATE_TIME.format(dt));
   }
 }
